@@ -1,0 +1,6 @@
+first = input("enter a string:")
+text = input("enter a new string:")
+old = input("enter the string:")
+print("the first character is", first[3 : len(first)])
+print("the reverse word is", first[-1 :: -1])
+print("the replaced string is", first.replace(old , text))
